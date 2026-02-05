@@ -1,4 +1,4 @@
-package Smartphones;
+package smartphones;
 
 public class Phone {
     private String brand;
@@ -26,24 +26,7 @@ public class Phone {
     }
 
     public void call(String number){
-        System.out.println("The Smartphone is calling to number: " + number);
+        System.out.println("The Phone is calling number: " + number);
     }
 
-    @Override
-    public void takePhoto() {
-        System.out.println("Phone is taking a photo");
-    }
-
-    @Override
-    public void alarmSound() {
-        System.out.println("Alarm is Sounding");
-    }
-
-    public interface camera {
-        void takePhoto();
-    }
-
-    public interface clock {
-        void alarmSound();
-    }
 }
