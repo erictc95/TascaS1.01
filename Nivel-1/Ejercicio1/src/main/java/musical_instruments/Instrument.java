@@ -1,4 +1,29 @@
 package musical_instruments;
 
-public class Instrument {
+public abstract class Instrument {
+    private String name;
+    private double price;
+
+    public Instrument(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    @Override
+    public String toString() {
+        return "instruments{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+    public abstract void play();
 }
