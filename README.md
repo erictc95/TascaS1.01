@@ -1,4 +1,4 @@
-Ingles
+English version
 
 # Sprint 1 Task S1.01
 
@@ -81,7 +81,7 @@ MIT License
 
 Eric Tarres Cabrisas - GitHub --> erictc95
 
-Español
+Version Española
 
 # Sprint 1 Tasca S1.01
 
