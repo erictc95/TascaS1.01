@@ -1,6 +1,6 @@
 package sportnews;
 
-public class Football extends News{
+public class Football extends New{
     private String competicio;
     private String club;
     private String jugador;

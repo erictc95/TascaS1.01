@@ -8,7 +8,7 @@ public class NewsMain {
     private static Scanner sc = new Scanner(System.in);
     private static int caso = 0;
     private static String input;
-    private static ArrayList<Editors> redactores = new ArrayList<>();
+    private static ArrayList<Editor> redactores = new ArrayList<>();
 
 
     static void main(String[] args) {
@@ -74,7 +74,7 @@ public class NewsMain {
         String name = sc.nextLine();
         System.out.println("DNI of Editor: ");
         String dni = sc.nextLine();
-        redactores.add(new Editors(name, dni));
+        redactores.add(new Editor(name, dni));
     }
 
     public static void eraseEditor() {

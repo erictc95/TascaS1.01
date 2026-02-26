@@ -1,6 +1,6 @@
 package sportnews;
 
-public class Tennis extends News{
+public class Tennis extends New{
     private String competicio;
     private String tenistes;
 

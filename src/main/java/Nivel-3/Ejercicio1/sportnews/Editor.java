@@ -2,13 +2,13 @@ package sportnews;
 
 import java.util.ArrayList;
 
-public class Editors {
+public class Editor {
     private String name;
     private final String dni;
     private static double salary = 1500;
-    private ArrayList<News> noticias = new ArrayList<>();
+    private ArrayList<New> noticias = new ArrayList<>();
 
-    public Editors(String name, String dni) {
+    public Editor(String name, String dni) {
         this.name = name;
         this.dni = dni;
     }
@@ -29,7 +29,7 @@ public class Editors {
         return noticias;
     }
 
-    public void addNoticia(News noticia) {
+    public void addNoticia(New noticia) {
         noticias.add(noticia);
     }
 

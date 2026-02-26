@@ -1,12 +1,12 @@
 package sportnews;
 
-public abstract class News {
+public abstract class New {
     private String titular;
     private String text;
     private int score;
     private double price;
 
-    public News(String titular) {
+    public New(String titular) {
         this.titular = titular;
         this.text = "";
         this.score = 0;

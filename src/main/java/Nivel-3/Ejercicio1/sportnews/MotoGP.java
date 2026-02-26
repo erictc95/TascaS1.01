@@ -1,6 +1,6 @@
 package sportnews;
 
-public class MotoGP extends News{
+public class MotoGP extends New{
     private String equip;
 
     public MotoGP(String titular, String equip) {
